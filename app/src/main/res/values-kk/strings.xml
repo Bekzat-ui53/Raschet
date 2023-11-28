@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Omirtai</string>
+    <string name="height">Биіктігі</string>
+    <string name="height1">Биіктігі (мм)</string>
+    <string name="width">Ені</string>
+    <string name="width1">Ені (мм)</string>
+    <string name="price">Бағасы</string>
+    <string name="price1">Бағасы (тг)</string>
+    <string name="count">Саны</string>
+    <string name="count1">Саны (штук)</string>
+    <string name="area">Шаршы</string>
+    <string name="btn_text1">Есептеп, сақтаңыз</string>
+    <string name="btn_text2">Ауданды есептеңіз</string>
+    <string name="btn_text3">Деректерді көру</string>
+
+</resources>

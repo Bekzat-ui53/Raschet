@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Omirtai</string>
+    <string name="height">Высота</string>
+    <string name="height1">Высота (мм)</string>
+    <string name="width">Ширина</string>
+    <string name="width1">Высота (мм)</string>
+    <string name="price">Цена</string>
+    <string name="price1">Цена (тг)</string>
+    <string name="count">Количество</string>
+    <string name="count1">Количество (штук)</string>
+    <string name="area">Площадь</string>
+    <string name="btn_text1">Вычислить и сохранить</string>
+    <string name="btn_text2">Вычислить площадь</string>
+    <string name="btn_text3">Посмотреть данные</string>
+
+</resources>

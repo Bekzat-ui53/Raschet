@@ -1,0 +1,61 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".History">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <WebView
+            android:id="@+id/historyWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/buttons_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/resultCalculateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textSize="13dp"
+            android:layout_weight="1"
+            android:backgroundTint="#673AB7"
+            android:onClick="Home"
+            android:text="Страница Расчетов "
+            android:background="@drawable/shape"  />
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/deleteALL"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/buttons_line"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/shape"
+        android:onClick="clearResult"
+        android:src="@drawable/baseline_horizontal_rule_24"/>
+
+</RelativeLayout>
